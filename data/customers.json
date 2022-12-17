@@ -1,0 +1,30 @@
+[
+    {
+        "ID":"l3b7f4pfwra1pmti1qb",
+        "first_name":"customer_fname_01",
+        "last_name":"customer_lname_01",
+        "age": "25",
+        "address":"customer 0001 address"
+    },
+    {
+        "ID":"l3b89i4db2exeypliws",
+        "first_name":"customer_fname_02",
+        "last_name":"customer_lname_02",
+        "age": "25",
+        "address":"customer 0001 address"
+    },
+    {
+        "ID":"l3b89qnxhugfuapmtpn",
+        "first_name":"customer_fname_01",
+        "last_name":"customer_lname_01",
+        "age": "25",
+        "address":"customer 0002 address"
+    },
+    {
+        "ID":"l3b89vsg71sy70auph7",
+        "first_name":"customer_fname_03",
+        "last_name":"customer_lname_03",
+        "age": "25",
+        "address":"customer 0003 address"
+    }
+]

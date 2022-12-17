@@ -1,0 +1,30 @@
+[
+    {
+        "ID":"l3b8b779ugc44n9h27",
+        "first_name":"student_fname_01",
+        "last_name":"student_lname_01",
+        "age": "25",
+        "address":"student 0001 address"
+    },
+    {
+        "ID":"l3b8bcv9wd7t5soicj",
+        "first_name":"student_fname_02",
+        "last_name":"student_lname_02",
+        "age": "25",
+        "address":"student 0001 address"
+    },
+    {
+        "ID":"l3b8bj7cz8vu4860ka",
+        "first_name":"student_fname_01",
+        "last_name":"student_lname_01",
+        "age": "25",
+        "address":"student 0002 address"
+    },
+    {
+        "ID":"l3b8bpglbe53ryc9pvw",
+        "first_name":"student_fname_03",
+        "last_name":"student_lname_03",
+        "age": "25",
+        "address":"student 0003 address"
+    }
+]

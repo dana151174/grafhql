@@ -1,0 +1,390 @@
+{
+	"info": {
+		"_postman_id": "19d00479-d925-48d8-bbbe-659a1096507b",
+		"name": "Rest simulator",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get Employees",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:3000/employees",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "3000",
+					"path": [
+						"employees"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add New Employee",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": " {\n    \"first_name\":\"user_fname_Test\",\n    \"last_name\":\"user_lname_Test\",\n    \"age\": \"45\",\n    \"address\":\"student Test address\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:3000/employees",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "3000",
+					"path": [
+						"employees"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Employee",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": " {\n    \"first_name\":\"user_fname_Test\",\n    \"last_name\":\"user_lname_Test\",\n    \"age\": \"45\",\n    \"address\":\"student Test address\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:3000/employees?id=l3b7f4pfwra1pmti1qb",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "3000",
+					"path": [
+						"employees"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "l3b7f4pfwra1pmti1qb"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update  Employee",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": " {\n    \"first_name\":\"tamir\",\n    \"last_name\":\"zano\",\n    \"age\": \"45\",\n    \"address\":\"student Test address\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:3000/employees?id=l3b8a3y950gigvbkz1w",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "3000",
+					"path": [
+						"employees"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "l3b8a3y950gigvbkz1w"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Students",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:3000/students",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "3000",
+					"path": [
+						"students"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add New Student",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": " {\n    \"first_name\":\"user_fname_Test\",\n    \"last_name\":\"user_lname_Test\",\n    \"age\": \"45\",\n    \"address\":\"student Test address\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:3000/students",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "3000",
+					"path": [
+						"students"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Student",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": " {\n    \"first_name\":\"user_fname_Test\",\n    \"last_name\":\"user_lname_Test\",\n    \"age\": \"45\",\n    \"address\":\"student Test address\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:3000/students?id=3b6phlrvexo2kab9a\n",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "3000",
+					"path": [
+						"students"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "3b6phlrvexo2kab9a\n"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update  Student",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": " {\n    \"first_name\":\"tamir\",\n    \"last_name\":\"zano\",\n    \"age\": \"45\",\n    \"address\":\"student Test address\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:3000/students?id=l3b8b779ugc44n9h27",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "3000",
+					"path": [
+						"students"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "l3b8b779ugc44n9h27"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Customers",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:3000/customers",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "3000",
+					"path": [
+						"customers"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add New Customer",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": " {\n    \"first_name\":\"user_fname_Test\",\n    \"last_name\":\"user_lname_Test\",\n    \"age\": \"45\",\n    \"address\":\"student Test address\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:3000/customers",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "3000",
+					"path": [
+						"customers"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Customer",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": " {\n    \"first_name\":\"user_fname_Test\",\n    \"last_name\":\"user_lname_Test\",\n    \"age\": \"45\",\n    \"address\":\"student Test address\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:3000/customers?id=3b6phlrvexo2kab9a\n",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "3000",
+					"path": [
+						"customers"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "3b6phlrvexo2kab9a\n"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update  Customer",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": " {\n    \"first_name\":\"tamir\",\n    \"last_name\":\"zano\",\n    \"age\": \"45\",\n    \"address\":\"student Test address\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:3000/customers?id=l3b7f4pfwra1pmti1qb",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "3000",
+					"path": [
+						"customers"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "l3b7f4pfwra1pmti1qb"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
